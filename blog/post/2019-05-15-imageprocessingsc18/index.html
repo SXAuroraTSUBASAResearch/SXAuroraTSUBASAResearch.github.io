@@ -7,9 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>SX-Aurora TSUBASA - SX-Aurora TSUBASA</title>
-  <meta property="og:title" content="SX-Aurora TSUBASA" />
-  <meta name="twitter:title" content="SX-Aurora TSUBASA" />
+  <title>Image Processing on Aurora - SX-Aurora TSUBASA</title>
+  <meta property="og:title" content="Image Processing on Aurora" />
+  <meta name="twitter:title" content="Image Processing on Aurora" />
+  <meta name="description" content="We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.
+Here is the performance comparison of some kernels from OpenCV.
+We have also ported image processing applications to Aurora. See the panel for details.">
+  <meta property="og:description" content="We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.
+Here is the performance comparison of some kernels from OpenCV.
+We have also ported image processing applications to Aurora. See the panel for details.">
+  <meta name="twitter:description" content="We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels …">
   <meta name="author" content="Team Aurora"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -30,20 +37,72 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/sxauroratsubasaresearch.github.io\/blog",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/sxauroratsubasaresearch.github.io\/blog\/post\/2019-05-15-imageprocessingsc18\/",
+          "name": "Image processing on aurora"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Kazuhisa Ishizaka"
+  },
+  "headline": "Image Processing on Aurora",
+  "description" : "We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.\nHere is the performance comparison of some kernels from OpenCV.\nWe have also ported image processing applications to Aurora. See the panel for details.",
+  "inLanguage" : "en",
+  "wordCount":  59 ,
+  "datePublished" : "2019-05-15T00:00:00",
+  "dateModified" : "2019-05-15T00:00:00",
+  "image" : "https:\/\/sxauroratsubasaresearch.github.io\/blog\/img\/ve_card_sq.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/sxauroratsubasaresearch.github.io\/blog\/post\/2019-05-15-imageprocessingsc18\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/sxauroratsubasaresearch.github.io\/blog",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/sxauroratsubasaresearch.github.io\/blog\/img\/ve_card_sq.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="SX-Aurora TSUBASA" />
+<meta property="og:title" content="Image Processing on Aurora" />
+<meta property="og:description" content="We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.
+Here is the performance comparison of some kernels from OpenCV.
+We have also ported image processing applications to Aurora. See the panel for details.">
 <meta property="og:image" content="https://sxauroratsubasaresearch.github.io/blog/img/ve_card_sq.png" />
-<meta property="og:url" content="https://sxauroratsubasaresearch.github.io/blog/" />
+<meta property="og:url" content="https://sxauroratsubasaresearch.github.io/blog/post/2019-05-15-imageprocessingsc18/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="SX-Aurora TSUBASA" />
-  <meta name="twitter:title" content="SX-Aurora TSUBASA" />
+  <meta name="twitter:title" content="Image Processing on Aurora" />
+  <meta name="twitter:description" content="We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels …">
   <meta name="twitter:image" content="https://sxauroratsubasaresearch.github.io/blog/img/ve_card_sq.png" />
   <meta name="twitter:card" content="summary" />
   <link href='https://sxauroratsubasaresearch.github.io/blog/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://sxauroratsubasaresearch.github.io/blog/img/ve_card_sq.png" />
   <meta name="twitter:image" content="https://sxauroratsubasaresearch.github.io/blog/img/ve_card_sq.png" />
   <meta name="twitter:card" content="summary" />
-  <meta property="og:url" content="https://sxauroratsubasaresearch.github.io/blog/" />
+  <meta property="og:url" content="https://sxauroratsubasaresearch.github.io/blog/post/2019-05-15-imageprocessingsc18/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="SX-Aurora TSUBASA" />
 
@@ -173,80 +232,21 @@
 
 
   
-    <div id="header-big-imgs" data-num-img=1 
-      
-         
-          data-img-src-1="img/avatar-icon.png" 
-         
-         
-      ></div>
-  
 
-  <header class="header-section has-img">
-    
-      <div class="intro-header big-img">
-        
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="page-heading">
-                <h1>Aurora TSUBASA</h1>
-                  
-                    
-                      <hr class="small">
-                      <span class="page-subheading">VECTOR IS THE BEST FRIEND</span>
-                    
-                  
-                  
-              </div>
-            </div>
-          </div>
-        </div>
-        <span class="img-desc" style="display: inline;"></span>
-      </div>
+  <header class="header-section ">
     
     <div class="intro-header no-img">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            <div class="page-heading">
+            <div class="post-heading">
               
-                <h1>Aurora TSUBASA</h1>
-              
-              
-                <hr class="small">
+                <h1>Image Processing on Aurora</h1>
               
               
-                
-                  <span class="page-subheading">VECTOR IS THE BEST FRIEND</span>
-                
               
               
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-
-    
-  <div role="main" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-
-        <div class="posts-list">
-          
-          
-            <article class="post-preview">
-              <a href="https://sxauroratsubasaresearch.github.io/blog/post/2019-05-15-imageprocessingsc18/">
-                <h2 class="post-title">Image Processing on Aurora</h2>
-                
-                
-              </a>
-
-              <span class="post-meta">
+                <span class="post-meta">
   
   
   <i class="fas fa-calendar"></i>&nbsp;Posted on May 15, 2019
@@ -264,9 +264,21 @@
 </span>
 
 
-              <div class="post-entry">
-                
-                  <p>We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.</p>
 
 <p>Here is the performance comparison of some kernels from OpenCV.</p>
 
@@ -274,55 +286,98 @@
 
 <p>We have also ported image processing applications to Aurora. See <a href="sc18demo_panel_Image.pdf">the panel</a> for details.</p>
 
-                
-              </div>
-
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://sxauroratsubasaresearch.github.io/blog/post/2019-05-10-first-post/">
-                <h2 class="post-title">First post!</h2>
-                
-                
-              </a>
-
-              <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on May 10, 2019
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;94&nbsp;words
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Kazuhisa Ishizaka
-  
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  We are pleased to start the blog. We are working for SX-Aurora for a couple of years. We want to share our experience for everyone know more on SX-Aurora. We also have the github repositiry to priovide SW developed by us.
-Our big brother is SX-Aurora Vector Engine blog. We have learned very much from him. You could also find useful things.
-And you can visit Aurora Forum not only to get information on SX-Aurora but also to post your own article.
-                  <a href="https://sxauroratsubasaresearch.github.io/blog/post/2019-05-10-first-post/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-            </article>
-          
-        </div>
 
         
-      </div>
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fsxauroratsubasaresearch.github.io%2fblog%2fpost%2f2019-05-15-imageprocessingsc18%2f&amp;text=Image%20Processing%20on%20Aurora&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//plus.google.com/share?url=https%3a%2f%2fsxauroratsubasaresearch.github.io%2fblog%2fpost%2f2019-05-15-imageprocessingsc18%2f" target="_blank" title="Share on Google Plus">
+          <i class="fab fa-google-plus"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fsxauroratsubasaresearch.github.io%2fblog%2fpost%2f2019-05-15-imageprocessingsc18%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fsxauroratsubasaresearch.github.io%2fblog%2fpost%2f2019-05-15-imageprocessingsc18%2f&amp;title=Image%20Processing%20on%20Aurora" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fsxauroratsubasaresearch.github.io%2fblog%2fpost%2f2019-05-15-imageprocessingsc18%2f&amp;title=Image%20Processing%20on%20Aurora" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fsxauroratsubasaresearch.github.io%2fblog%2fpost%2f2019-05-15-imageprocessingsc18%2f&amp;title=Image%20Processing%20on%20Aurora" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fsxauroratsubasaresearch.github.io%2fblog%2fpost%2f2019-05-15-imageprocessingsc18%2f&amp;description=Image%20Processing%20on%20Aurora" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+              </div>
+            </section>
+        
+
+        
+          
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://sxauroratsubasaresearch.github.io/blog/post/2019-05-10-first-post/" data-toggle="tooltip" data-placement="top" title="First post!">&larr; Previous Post</a>
+            </li>
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
     </div>
   </div>
+</div>
 
     <footer>
   <div class="container">

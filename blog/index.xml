@@ -5,10 +5,21 @@
     <link>https://sxauroratsubasaresearch.github.io/blog/</link>
     <description>Recent content on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sxauroratsubasaresearch.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Image Processing on Aurora</title>
+      <link>https://sxauroratsubasaresearch.github.io/blog/post/2019-05-15-imageprocessingsc18/</link>
+      <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sxauroratsubasaresearch.github.io/blog/post/2019-05-15-imageprocessingsc18/</guid>
+      <description>We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.
+Here is the performance comparison of some kernels from OpenCV.
+We have also ported image processing applications to Aurora. See the panel for details.</description>
+    </item>
     
     <item>
       <title>First post!</title>

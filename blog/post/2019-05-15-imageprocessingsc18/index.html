@@ -10,13 +10,13 @@
   <title>Image Processing on Aurora - SX-Aurora TSUBASA</title>
   <meta property="og:title" content="Image Processing on Aurora" />
   <meta name="twitter:title" content="Image Processing on Aurora" />
-  <meta name="description" content="We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.
+  <meta name="description" content="We have presented several examples of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access, for example, to access the pixels they are interested in. Aurora with world highest memory bandwidth (1.2TB/s) can fit such kernels.
 Here is the performance comparison of some kernels from OpenCV.
 We have also ported image processing applications to Aurora. See the panel for details.">
-  <meta property="og:description" content="We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.
+  <meta property="og:description" content="We have presented several examples of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access, for example, to access the pixels they are interested in. Aurora with world highest memory bandwidth (1.2TB/s) can fit such kernels.
 Here is the performance comparison of some kernels from OpenCV.
 We have also ported image processing applications to Aurora. See the panel for details.">
-  <meta name="twitter:description" content="We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels …">
+  <meta name="twitter:description" content="We have presented several examples of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access, for example, to …">
   <meta name="author" content="Team Aurora"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -65,13 +65,13 @@ We have also ported image processing applications to Aurora. See the panel for d
     "name" : "Kazuhisa Ishizaka"
   },
   "headline": "Image Processing on Aurora",
-  "description" : "We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.\nHere is the performance comparison of some kernels from OpenCV.\nWe have also ported image processing applications to Aurora. See the panel for details.",
+  "description" : "We have presented several examples of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access, for example, to access the pixels they are interested in. Aurora with world highest memory bandwidth (1.2TB\/s) can fit such kernels.\nHere is the performance comparison of some kernels from OpenCV.\nWe have also ported image processing applications to Aurora. See the panel for details.",
   "inLanguage" : "en",
-  "wordCount":  59 ,
+  "wordCount":  93 ,
   "datePublished" : "2019-05-15T00:00:00",
   "dateModified" : "2019-05-15T00:00:00",
   "image" : "https:\/\/sxauroratsubasaresearch.github.io\/blog\/img\/ve_card_sq.png",
-  "keywords" : [ "" ],
+  "keywords" : [ "image processing, sc18" ],
   "mainEntityOfPage" : "https:\/\/sxauroratsubasaresearch.github.io\/blog\/post\/2019-05-15-imageprocessingsc18\/",
   "publisher" : {
     "@type": "Organization",
@@ -87,7 +87,7 @@ We have also ported image processing applications to Aurora. See the panel for d
 </script>
 
 <meta property="og:title" content="Image Processing on Aurora" />
-<meta property="og:description" content="We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.
+<meta property="og:description" content="We have presented several examples of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access, for example, to access the pixels they are interested in. Aurora with world highest memory bandwidth (1.2TB/s) can fit such kernels.
 Here is the performance comparison of some kernels from OpenCV.
 We have also ported image processing applications to Aurora. See the panel for details.">
 <meta property="og:image" content="https://sxauroratsubasaresearch.github.io/blog/img/ve_card_sq.png" />
@@ -95,7 +95,7 @@ We have also ported image processing applications to Aurora. See the panel for d
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="SX-Aurora TSUBASA" />
   <meta name="twitter:title" content="Image Processing on Aurora" />
-  <meta name="twitter:description" content="We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels …">
+  <meta name="twitter:description" content="We have presented several examples of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access, for example, to …">
   <meta name="twitter:image" content="https://sxauroratsubasaresearch.github.io/blog/img/ve_card_sq.png" />
   <meta name="twitter:card" content="summary" />
   <link href='https://sxauroratsubasaresearch.github.io/blog/img/favicon.ico' rel='icon' type='image/x-icon'/>
@@ -255,7 +255,7 @@ We have also ported image processing applications to Aurora. See the panel for d
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;59&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;93&nbsp;words
   
   
     &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Kazuhisa Ishizaka
@@ -278,15 +278,25 @@ We have also ported image processing applications to Aurora. See the panel for d
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>We have presented some example of image processing on Aurora at SC18 Exhibition. Some image processing kernels are memory bandwidth intensive because they use random memory access to access the pixels they are interested in.</p>
+        <p>We have presented several examples of image processing on Aurora at <a href="https://www.hpc.nec/events/sc-18/">SC18 Exhibition</a>. Some image processing kernels are memory bandwidth intensive because they use random memory access, for example, to access the pixels they are interested in. Aurora with world highest memory bandwidth (1.2TB/s) can fit such kernels.</p>
 
-<p>Here is the performance comparison of some kernels from OpenCV.</p>
+<p>Here is the performance comparison of some kernels from <a href="https://opencv.org/">OpenCV</a>.</p>
 
-<p><img src="/img/kernel_perf.png" alt="kernel perf" /></p>
+<p><img src="kernel_perf.png" alt="kernel perf" /></p>
 
-<p>We have also ported image processing applications to Aurora. See <a href="sc18demo_panel_Image.pdf">the panel</a> for details.</p>
+<p>We have also ported image processing applications to Aurora. See <a href="sc18demo_panel_Image.pdf">the panel</a> for details. It includes medical image processing, object detection and tracking.</p>
+
+<p>We are preparing to release OpenCV optimized for Vector Engine of Aurora.</p>
 
 
+        
+          <div class="blog-tags">
+            
+              <a href="https://sxauroratsubasaresearch.github.io/blog/tags/image-processing/">image processing</a>&nbsp;
+            
+              <a href="https://sxauroratsubasaresearch.github.io/blog/tags/sc18/">sc18</a>&nbsp;
+            
+          </div>
         
 
         

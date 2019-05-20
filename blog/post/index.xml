@@ -12,10 +12,10 @@
     
     <item>
       <title>Release LLVM for VE</title>
-      <link>https://sxauroratsubasaresearch.github.io/blog/post/20190520-llvm-ve/</link>
+      <link>https://sxauroratsubasaresearch.github.io/blog/post/2019-05-20-llvm-ve/</link>
       <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sxauroratsubasaresearch.github.io/blog/post/20190520-llvm-ve/</guid>
+      <guid>https://sxauroratsubasaresearch.github.io/blog/post/2019-05-20-llvm-ve/</guid>
       <description>&lt;p&gt;We have released &lt;a href=&#34;https://github.com/SXAuroraTSUBASAResearch/llvm&#34;&gt;LLVM for Vector Engine&lt;/a&gt; on GitHub. The llvm-ve has been proposed to the llvm-dev ML: &lt;a href=&#34;http://lists.llvm.org/pipermail/llvm-dev/2019-April/131580.html&#34;&gt;[llvm-dev] [RFC] NEC SX-Aurora VE backend&lt;/a&gt;. As described in the proposal, current llvm-ve includes scalar code backend with &lt;a href=&#34;https://sxauroratsubasaresearch.github.io/velintrin.html&#34;&gt;intrisic functions for vector instructions&lt;/a&gt;. Auto vectorization is not yet supported. We welcome your contribution!&lt;/p&gt;</description>
     </item>
     
@@ -36,7 +36,7 @@ We have also ported image processing applications to Aurora. See the poster for 
       <pubDate>Fri, 10 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sxauroratsubasaresearch.github.io/blog/post/2019-05-10-first-post/</guid>
-      <description>We are pleased to start the blog. We are working for SX-Aurora for a couple of years. We want to share our experience for everyone know more on SX-Aurora. We also have the github repositiry to priovide SW developed by us.
+      <description>We are pleased to start the blog. We are working for SX-Aurora for a couple of years. We want to share our experience for everyone knows more on SX-Aurora. We also have the github repositiry to priovide SW developed by us.
 Our big brother is SX-Aurora Vector Engine blog. We have learned very much from him. You could also find useful things.
 And you can visit Aurora Forum not only to get information on SX-Aurora but also to post your own article.</description>
     </item>

@@ -10,9 +10,9 @@
   <title>Overview of all pages with the tag #llvm - SX-Aurora TSUBASA</title>
   <meta property="og:title" content="Overview of all pages with the tag #llvm" />
   <meta name="twitter:title" content="Overview of all pages with the tag #llvm" />
-  <meta name="description" content="Overview of all pages with the tag #llvm, such as: Release LLVM for VE">
-  <meta property="og:description" content="Overview of all pages with the tag #llvm, such as: Release LLVM for VE">
-  <meta name="twitter:description" content="Overview of all pages with the tag #llvm, such as: Release LLVM for VE">
+  <meta name="description" content="Overview of all pages with the tag #llvm, such as: LLVM-VE rpm package">
+  <meta property="og:description" content="Overview of all pages with the tag #llvm, such as: LLVM-VE rpm package">
+  <meta name="twitter:description" content="Overview of all pages with the tag #llvm, such as: LLVM-VE rpm package">
   <meta name="author" content="Team Aurora"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -257,6 +257,54 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         
         <div class="posts-list">
+          
+            <article class="post-preview">
+              <a href="https://sxauroratsubasaresearch.github.io/blog/post/2019-05-22-llvm-rpm/">
+                <h2 class="post-title">LLVM-VE rpm package</h2>
+
+                
+              </a>
+
+              <p class="post-meta">
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on May 22, 2019
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;105&nbsp;words
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Kazuhisa Ishizaka
+  
+  
+</span>
+
+
+              </p>
+              <div class="post-entry">
+                
+                  As we mentioned in the past post, the rpm package for llvm-ve is now available on VEOS yum Repository on the Web.
+You can install llvm-ve:
+% yum install https://sx-aurora.com/repos/veos/ef_extra/x86_64/llvm-ve-1.1.0-1.1.0-1.x86_64.rpm \ https://sx-aurora.com/repos/veos/ef_extra/x86_64/llvm-ve-link-1.1.0-1.x86_64.rpm The llvm-ve package is all in one package that includes llvm, clang and runtimes. Files are installed into /opt/nec/nosupport/llvm-ve-1.1.0. The llvm-ve-link makes a symlink from /opt/nec/nosupport/llvm-ve to there.
+You can compile your program like this.
+% /opt/nec/nosupport/llvm-ve/bin/clang -target ve-linux hello.
+                  <a href="https://sxauroratsubasaresearch.github.io/blog/post/2019-05-22-llvm-rpm/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+                <div class="blog-tags">
+                  
+                    <a href="https://sxauroratsubasaresearch.github.io/blog/tags/llvm/">llvm</a>&nbsp;
+                  
+                </div>
+              
+
+            </article>
           
             <article class="post-preview">
               <a href="https://sxauroratsubasaresearch.github.io/blog/post/2019-05-20-llvm-ve/">

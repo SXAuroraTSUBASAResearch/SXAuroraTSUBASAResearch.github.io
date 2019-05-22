@@ -5,10 +5,23 @@
     <link>https://sxauroratsubasaresearch.github.io/blog/tags/llvm/</link>
     <description>Recent content in llvm on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 17 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sxauroratsubasaresearch.github.io/blog/tags/llvm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LLVM-VE rpm package</title>
+      <link>https://sxauroratsubasaresearch.github.io/blog/post/2019-05-22-llvm-rpm/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sxauroratsubasaresearch.github.io/blog/post/2019-05-22-llvm-rpm/</guid>
+      <description>As we mentioned in the past post, the rpm package for llvm-ve is now available on VEOS yum Repository on the Web.
+You can install llvm-ve:
+% yum install https://sx-aurora.com/repos/veos/ef_extra/x86_64/llvm-ve-1.1.0-1.1.0-1.x86_64.rpm \ https://sx-aurora.com/repos/veos/ef_extra/x86_64/llvm-ve-link-1.1.0-1.x86_64.rpm The llvm-ve package is all in one package that includes llvm, clang and runtimes. Files are installed into /opt/nec/nosupport/llvm-ve-1.1.0. The llvm-ve-link makes a symlink from /opt/nec/nosupport/llvm-ve to there.
+You can compile your program like this.
+% /opt/nec/nosupport/llvm-ve/bin/clang -target ve-linux hello.</description>
+    </item>
     
     <item>
       <title>Release LLVM for VE</title>

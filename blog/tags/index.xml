@@ -2,65 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on SX-Aurora TSUBASA</title>
-    <link>https://sxauroratsubasaresearch.github.io/blog/tags/</link>
+    <link>https://sx-aurora-dev.github.io/blog/tags/</link>
     <description>Recent content in Tags on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 22 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sxauroratsubasaresearch.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sx-aurora-dev.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>llvm</title>
-      <link>https://sxauroratsubasaresearch.github.io/blog/tags/llvm/</link>
+      <link>https://sx-aurora-dev.github.io/blog/tags/llvm/</link>
       <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sxauroratsubasaresearch.github.io/blog/tags/llvm/</guid>
+      <guid>https://sx-aurora-dev.github.io/blog/tags/llvm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ansible</title>
-      <link>https://sxauroratsubasaresearch.github.io/blog/tags/ansible/</link>
+      <link>https://sx-aurora-dev.github.io/blog/tags/ansible/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sxauroratsubasaresearch.github.io/blog/tags/ansible/</guid>
+      <guid>https://sx-aurora-dev.github.io/blog/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>veos</title>
-      <link>https://sxauroratsubasaresearch.github.io/blog/tags/veos/</link>
+      <link>https://sx-aurora-dev.github.io/blog/tags/veos/</link>
       <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sxauroratsubasaresearch.github.io/blog/tags/veos/</guid>
+      <guid>https://sx-aurora-dev.github.io/blog/tags/veos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vedma</title>
-      <link>https://sxauroratsubasaresearch.github.io/blog/tags/vedma/</link>
+      <link>https://sx-aurora-dev.github.io/blog/tags/vedma/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sxauroratsubasaresearch.github.io/blog/tags/vedma/</guid>
+      <guid>https://sx-aurora-dev.github.io/blog/tags/vedma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>image processing</title>
-      <link>https://sxauroratsubasaresearch.github.io/blog/tags/image-processing/</link>
+      <link>https://sx-aurora-dev.github.io/blog/tags/image-processing/</link>
       <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sxauroratsubasaresearch.github.io/blog/tags/image-processing/</guid>
+      <guid>https://sx-aurora-dev.github.io/blog/tags/image-processing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sc18</title>
-      <link>https://sxauroratsubasaresearch.github.io/blog/tags/sc18/</link>
+      <link>https://sx-aurora-dev.github.io/blog/tags/sc18/</link>
       <pubDate>Wed, 15 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sxauroratsubasaresearch.github.io/blog/tags/sc18/</guid>
+      <guid>https://sx-aurora-dev.github.io/blog/tags/sc18/</guid>
       <description></description>
     </item>
     

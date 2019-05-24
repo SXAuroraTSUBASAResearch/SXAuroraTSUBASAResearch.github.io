@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vedma on SX-Aurora TSUBASA</title>
-    <link>https://sxauroratsubasaresearch.github.io/blog/tags/vedma/</link>
+    <link>https://sx-aurora-dev.github.io/blog/tags/vedma/</link>
     <description>Recent content in vedma on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://sxauroratsubasaresearch.github.io/blog/tags/vedma/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://sx-aurora-dev.github.io/blog/tags/vedma/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Faster data transfer by VE DMA</title>
-      <link>https://sxauroratsubasaresearch.github.io/blog/post/2019-05-20-vedma/</link>
+      <link>https://sx-aurora-dev.github.io/blog/post/2019-05-20-vedma/</link>
       <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://sxauroratsubasaresearch.github.io/blog/post/2019-05-20-vedma/</guid>
+      <guid>https://sx-aurora-dev.github.io/blog/post/2019-05-20-vedma/</guid>
       <description>On VE, you can use usual read(2) and write(2) to accesse file system or to transfer data through socket. But its speed is about 1GB/s at maximum in our experience. When we want to accelerate data transfer between VE and CPU, we use VE DMA. Since VE DMA has its own API for DMA, we have to rewrite a program. But we can reach 10GB/s.
 Here is the result of our experiment.</description>
     </item>

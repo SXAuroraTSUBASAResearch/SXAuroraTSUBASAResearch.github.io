@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tensorflow on SX-Aurora TSUBASA</title>
+    <link>https://sx-aurora-dev.github.io/blog/tags/tensorflow/</link>
+    <description>Recent content in tensorflow on SX-Aurora TSUBASA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://sx-aurora-dev.github.io/blog/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Release TensorFlow for SX-Aurora</title>
+      <link>https://sx-aurora-dev.github.io/blog/post/20190605-tf-release/</link>
+      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/post/20190605-tf-release/</guid>
+      <description>We are pleased to announce the release of TensorFlow for SX-Aurora. This TF supports Vector Engin in SX-Aurora as a computing device. We have implemented some kernels for VE. Such kenrels are offloaded to VE for acceleration.
+We have also released:
+ keras includes small modification for VE, vetfkernel includes implemetation of kernels for VE, and vednn is Vector Engine DNN Library.  You can pip install prebuild packages to start to use TF on SX-Aurora.</description>
+    </item>
+    
+  </channel>
+</rss>

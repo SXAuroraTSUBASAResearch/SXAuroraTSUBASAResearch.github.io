@@ -5,10 +5,21 @@
     <link>https://sx-aurora-dev.github.io/blog/</link>
     <description>Recent content on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sx-aurora-dev.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Performance of TensorFlow on SX-Aurora</title>
+      <link>https://sx-aurora-dev.github.io/blog/post/20190708-tf-perf/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/post/20190708-tf-perf/</guid>
+      <description>We are investigating how SX-Aurora works on variouse ML applications. In this post, we would like to share the result of performance evaluation of three ML workloads using TensorFlow.
+The graphs show relative performance of training on CPU, GPU and VE in SX-Aurora.
+The left graph is simple CNN for image classification based on the example in Keras. We have used mnist dataset. As you know, GPU&amp;rsquo;s high peak computational performance works well for convolution layers, then V100 is the best.</description>
+    </item>
     
     <item>
       <title>Release TensorFlow for SX-Aurora</title>

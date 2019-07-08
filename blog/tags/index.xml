@@ -5,15 +5,42 @@
     <link>https://sx-aurora-dev.github.io/blog/tags/</link>
     <description>Recent content in Tags on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sx-aurora-dev.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>ISC19</title>
+      <link>https://sx-aurora-dev.github.io/blog/tags/isc19/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/tags/isc19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>logistic regression</title>
+      <link>https://sx-aurora-dev.github.io/blog/tags/logistic-regression/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/tags/logistic-regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://sx-aurora-dev.github.io/blog/tags/machine-learning/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>tensorflow</title>
       <link>https://sx-aurora-dev.github.io/blog/tags/tensorflow/</link>
-      <pubDate>Mon, 03 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sx-aurora-dev.github.io/blog/tags/tensorflow/</guid>
       <description></description>

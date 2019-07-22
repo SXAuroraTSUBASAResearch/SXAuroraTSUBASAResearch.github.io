@@ -5,10 +5,21 @@
     <link>https://sx-aurora-dev.github.io/blog/post/</link>
     <description>Recent content in Posts on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 08 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sx-aurora-dev.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Release llvm-ve-1.3.0</title>
+      <link>https://sx-aurora-dev.github.io/blog/post/20190722-llvm-ve-1.3.0/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/post/20190722-llvm-ve-1.3.0/</guid>
+      <description>We have released LLVM-VE 1.3.0. The rpm packages are avaible.
+% yum install https://sx-aurora.com/repos/veos/ef_extra/x86_64/llvm-ve-link-1.3.0-1.x86_64.rpm \ https://sx-aurora.com/repos/veos/ef_extra/x86_64/llvm-ve-1.3.0-1.3.0-1.x86_64.rpm This release adds some intrinsic functions.
+ _vel_andm_MMMl, etc _vel_insert/extract_vm512l/u _vel_approx_* _vel_pvfmk*  Full function list is available at https://sx-aurora-dev.github.io/velintrin.html.</description>
+    </item>
     
     <item>
       <title>Performance of TensorFlow on SX-Aurora</title>

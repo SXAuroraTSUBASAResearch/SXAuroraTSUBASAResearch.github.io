@@ -5,10 +5,21 @@
     <link>https://sx-aurora-dev.github.io/blog/post/</link>
     <description>Recent content in Posts on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 23 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sx-aurora-dev.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Release LLVM-VE 1.5.0</title>
+      <link>https://sx-aurora-dev.github.io/blog/post/20190829-llvm-1.5.0/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/post/20190829-llvm-1.5.0/</guid>
+      <description>We have released LLVM-VE 1.5.0. From this release we have shifted to the mono repo as the official LLVM. The compiler is idential with LLVM-VE 1.4.0.
+It can be installed from ef_extra repository.
+% yum install https://sx-aurora.com/repos/veos/ef_extra/x86_64/llvm-ve-link-1.5.0-1.x86_64.rpm \ https://sx-aurora.</description>
+    </item>
     
     <item>
       <title>Deep Reinforcement Learning on SX-Aurora</title>
@@ -17,7 +28,7 @@
       
       <guid>https://sx-aurora-dev.github.io/blog/post/20190823-dqn/</guid>
       <description>Our partner has evaluated their deep reinforcement learning algorithm on SX-Aurora&amp;rsquo;s Vector Engine. The result is very impressive. SX-Aurora outperforms GPU(P100) system about two times.
-Their algorithm is based on &amp;ldquo;dueling double DQN&amp;rdquo; and solves 3D bin packing problems such as packing multiple products in boxes in a logistice center, loading packages into a truck, etc.
+Their algorithm is based on &amp;ldquo;dueling double DQN&amp;rdquo; and solves 3D bin packing problems such as packing multiple products in boxes in a logistics center, loading packages into a truck, etc.
 Since they are using TensorFlow, it can run on VE with TensorFlow for VE without special modification.</description>
     </item>
     

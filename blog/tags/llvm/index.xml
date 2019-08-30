@@ -5,10 +5,21 @@
     <link>https://sx-aurora-dev.github.io/blog/tags/llvm/</link>
     <description>Recent content in llvm on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 22 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sx-aurora-dev.github.io/blog/tags/llvm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Release LLVM-VE 1.5.0</title>
+      <link>https://sx-aurora-dev.github.io/blog/post/20190829-llvm-1.5.0/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/post/20190829-llvm-1.5.0/</guid>
+      <description>We have released LLVM-VE 1.5.0. From this release we have shifted to the mono repo as the official LLVM. The compiler is idential with LLVM-VE 1.4.0.
+It can be installed from ef_extra repository.
+% yum install https://sx-aurora.com/repos/veos/ef_extra/x86_64/llvm-ve-link-1.5.0-1.x86_64.rpm \ https://sx-aurora.</description>
+    </item>
     
     <item>
       <title>Release llvm-ve-1.3.0</title>

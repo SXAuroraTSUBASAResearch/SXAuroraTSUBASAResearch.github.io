@@ -85,59 +85,107 @@
 <tr>
 <td>__vr _vel_vldl2dzx_vssvl(unsigned long int I, void const* sz, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vldl2d.zx</a></td><td></td></tr>
 <tr>
-<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=264">VST</a></td>
+<td rowspan=8><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=264">VST</a></td>
 <td>void _vel_vst_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst</a></td><td></td></tr>
 <tr>
 <td>void _vel_vst_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst</a></td><td></td></tr>
+<tr>
+<td>void _vel_vst_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst</a></td><td></td></tr>
+<tr>
+<td>void _vel_vst_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstot_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst.ot</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstot_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst.ot</a></td><td></td></tr>
 <tr>
-<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=266">VSTU</a></td>
+<td>void _vel_vstot_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst.ot</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstot_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst.ot</a></td><td></td></tr>
+<tr>
+<td rowspan=8><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=266">VSTU</a></td>
 <td>void _vel_vstu_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstu_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstu_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstu_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstuot_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu.ot</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstuot_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu.ot</a></td><td></td></tr>
 <tr>
-<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=268">VSTL</a></td>
+<td>void _vel_vstuot_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu.ot</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstuot_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu.ot</a></td><td></td></tr>
+<tr>
+<td rowspan=8><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=268">VSTL</a></td>
 <td>void _vel_vstl_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstl_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstl_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstl_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstlot_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl.ot</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstlot_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl.ot</a></td><td></td></tr>
 <tr>
-<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=270">VST2D</a></td>
+<td>void _vel_vstlot_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl.ot</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstlot_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl.ot</a></td><td></td></tr>
+<tr>
+<td rowspan=8><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=270">VST2D</a></td>
 <td>void _vel_vst2d_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst2d</a></td><td></td></tr>
 <tr>
 <td>void _vel_vst2d_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst2d</a></td><td></td></tr>
+<tr>
+<td>void _vel_vst2d_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst2d</a></td><td></td></tr>
+<tr>
+<td>void _vel_vst2d_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst2d</a></td><td></td></tr>
 <tr>
 <td>void _vel_vst2dot_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst2d.ot</a></td><td></td></tr>
 <tr>
 <td>void _vel_vst2dot_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst2d.ot</a></td><td></td></tr>
 <tr>
-<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=272">VSTU2D</a></td>
+<td>void _vel_vst2dot_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst2d.ot</a></td><td></td></tr>
+<tr>
+<td>void _vel_vst2dot_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vst2d.ot</a></td><td></td></tr>
+<tr>
+<td rowspan=8><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=272">VSTU2D</a></td>
 <td>void _vel_vstu2d_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu2d</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstu2d_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu2d</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstu2d_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu2d</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstu2d_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu2d</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstu2dot_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu2d.ot</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstu2dot_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu2d.ot</a></td><td></td></tr>
 <tr>
-<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=274">VSTL2D</a></td>
+<td>void _vel_vstu2dot_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu2d.ot</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstu2dot_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstu2d.ot</a></td><td></td></tr>
+<tr>
+<td rowspan=8><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=274">VSTL2D</a></td>
 <td>void _vel_vstl2d_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl2d</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstl2d_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl2d</a></td><td></td></tr>
 <tr>
+<td>void _vel_vstl2d_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl2d</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstl2d_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl2d</a></td><td></td></tr>
+<tr>
 <td>void _vel_vstl2dot_vssl(__vr vx, unsigned long int sy, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl2d.ot</a></td><td></td></tr>
 <tr>
 <td>void _vel_vstl2dot_vssl(__vr vx, unsigned long int I, void* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl2d.ot</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstl2dot_vssml(__vr vx, unsigned long int sy, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl2d.ot</a></td><td></td></tr>
+<tr>
+<td>void _vel_vstl2dot_vssml(__vr vx, unsigned long int I, void* sz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vstl2d.ot</a></td><td></td></tr>
 <tr>
 <td rowspan=2><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=288">PFCHV</a></td>
 <td>void _vel_pfchv_ssl(long int sy, void const* sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">pfchv</a></td><td></td></tr>
@@ -215,7 +263,7 @@
 <tr>
 <td>__vr _vel_pvbrd_vsMvl(unsigned long int sy, __vm512 vm, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">pvbrd</a></td><td>vx[:] = vm[:] ? sy : vd[:]</td></tr>
 <tr>
-<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=296">VMV</a></td>
+<td rowspan=6><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=296">VMV</a></td>
 <td>__vr _vel_vmv_vsvl(unsigned int sy, __vr vz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vmv</a></td><td></td></tr>
 <tr>
 <td>__vr _vel_vmv_vsvvl(unsigned int sy, __vr vz, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vmv</a></td><td></td></tr>
@@ -223,6 +271,10 @@
 <td>__vr _vel_vmv_vsvl(unsigned int N, __vr vz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vmv</a></td><td></td></tr>
 <tr>
 <td>__vr _vel_vmv_vsvvl(unsigned int N, __vr vz, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vmv</a></td><td></td></tr>
+<tr>
+<td>__vr _vel_vmv_vsvmvl(unsigned int sy, __vr vz, __vm256 vm, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vmv</a></td><td></td></tr>
+<tr>
+<td>__vr _vel_vmv_vsvmvl(unsigned int N, __vr vz, __vm256 vm, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=21">vmv</a></td><td></td></tr>
 </table>
 <h3><a name="sec1">Table 3-16. Vector Fixed-Point Arithmetic Operation Instructions</a></h3>
 <table border=1>
@@ -1784,7 +1836,7 @@
 <tr>
 <td>__vr _vel_pvrcp_vvvl(__vr vy, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">pvrcp</a></td><td>vx[:] = 1.0f / vy[:]</td></tr>
 <tr>
-<td rowspan=6><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=396">VRSQRT</a></td>
+<td rowspan=12><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=396">VRSQRT</a></td>
 <td>__vr _vel_vrsqrtd_vvl(__vr vy, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">vrsqrt.d</a></td><td>vx[:] = 1.0f / std::sqrt(vy[:])</td></tr>
 <tr>
 <td>__vr _vel_vrsqrtd_vvvl(__vr vy, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">vrsqrt.d</a></td><td>vx[:] = 1.0f / std::sqrt(vy[:])</td></tr>
@@ -1797,8 +1849,17 @@
 <tr>
 <td>__vr _vel_pvrsqrt_vvvl(__vr vy, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">pvrsqrt</a></td><td>vx[:] = 1.0f / std::sqrt(vy[:])</td></tr>
 <tr>
-<td rowspan=1>VRSQRTnex</td>
-<td><font color="darkgray">not yet implemented</font><a href="#ft1">[1]</a></td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29"></a></td><td></td></tr>
+<td>__vr _vel_vrsqrtdnex_vvl(__vr vy, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">vrsqrt.d.nex</a></td><td>vx[:] = 1.0f / std::sqrt(vy[:])</td></tr>
+<tr>
+<td>__vr _vel_vrsqrtdnex_vvvl(__vr vy, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">vrsqrt.d.nex</a></td><td>vx[:] = 1.0f / std::sqrt(vy[:])</td></tr>
+<tr>
+<td>__vr _vel_vrsqrtsnex_vvl(__vr vy, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">vrsqrt.s.nex</a></td><td>vx[:] = 1.0f / std::sqrt(vy[:])</td></tr>
+<tr>
+<td>__vr _vel_vrsqrtsnex_vvvl(__vr vy, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">vrsqrt.s.nex</a></td><td>vx[:] = 1.0f / std::sqrt(vy[:])</td></tr>
+<tr>
+<td>__vr _vel_pvrsqrtnex_vvl(__vr vy, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">pvrsqrt.nex</a></td><td>vx[:] = 1.0f / std::sqrt(vy[:])</td></tr>
+<tr>
+<td>__vr _vel_pvrsqrtnex_vvvl(__vr vy, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">pvrsqrt.nex</a></td><td>vx[:] = 1.0f / std::sqrt(vy[:])</td></tr>
 <tr>
 <td rowspan=30><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=398">VFIX</a></td>
 <td>__vr _vel_vcvtwdsx_vvl(__vr vy, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=29">vcvt.w.d.sx</a></td><td>vx[:] = (int)(vy[:]+0.5)</td></tr>
@@ -1906,14 +1967,26 @@
 <table border=1>
 <tr><th>Instruction</th><th>Function</th><th>asm</th><th>Description</th></tr>
 <tr>
-<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=439">VMRG</a></td>
+<td rowspan=10><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=439">VMRG</a></td>
 <td>__vr _vel_vmrg_vvvml(__vr vy, __vr vz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vmrg</a></td><td></td></tr>
 <tr>
 <td>__vr _vel_vmrg_vvvmvl(__vr vy, __vr vz, __vm256 vm, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vmrg</a></td><td></td></tr>
 <tr>
+<td>__vr _vel_vmrg_vsvml(unsigned long int sy, __vr vz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vmrg</a></td><td></td></tr>
+<tr>
+<td>__vr _vel_vmrg_vsvmvl(unsigned long int sy, __vr vz, __vm256 vm, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vmrg</a></td><td></td></tr>
+<tr>
+<td>__vr _vel_vmrg_vsvml(unsigned long int I, __vr vz, __vm256 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vmrg</a></td><td></td></tr>
+<tr>
+<td>__vr _vel_vmrg_vsvmvl(unsigned long int I, __vr vz, __vm256 vm, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vmrg</a></td><td></td></tr>
+<tr>
 <td>__vr _vel_vmrgw_vvvMl(__vr vy, __vr vz, __vm512 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vmrg.w</a></td><td></td></tr>
 <tr>
 <td>__vr _vel_vmrgw_vvvMvl(__vr vy, __vr vz, __vm512 vm, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vmrg.w</a></td><td></td></tr>
+<tr>
+<td>__vr _vel_vmrgw_vsvMl(unsigned int sy, __vr vz, __vm512 vm, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vmrg.w</a></td><td></td></tr>
+<tr>
+<td>__vr _vel_vmrgw_vsvMvl(unsigned int sy, __vr vz, __vm512 vm, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vmrg.w</a></td><td></td></tr>
 <tr>
 <td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=441">VSHF</a></td>
 <td>__vr _vel_vshf_vvvsl(__vr vy, __vr vz, unsigned long int sy, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=34">vshf</a></td><td></td></tr>
@@ -2953,26 +3026,20 @@
 <table border=1>
 <tr><th>Instruction</th><th>Function</th><th>asm</th><th>Description</th></tr>
 <tr>
-<td rowspan=10></td>
+<td rowspan=7></td>
 <td>__vr _vel_approx_vfdivs_vvvl(__vr vy, __vr vz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = vy[:] / vz[:]</td></tr>
-<tr>
-<td>__vr _vel_approx_vfdivs_vvvvl(__vr vy, __vr vz, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = vy[:] / vz[:]</td></tr>
 <tr>
 <td>__vr _vel_approx_vfdivs_vsvl(float sy, __vr vz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = sy / vz[:]</td></tr>
 <tr>
-<td>__vr _vel_approx_vfdivs_vsvvl(float sy, __vr vz, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = sy / vz[:]</td></tr>
-<tr>
 <td>__vr _vel_approx_vfdivs_vvsl(__vr vy, float sz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = vy[:] / sz</td></tr>
-<tr>
-<td>__vr _vel_approx_vfdivs_vvsvl(__vr vy, float sz, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = vy[:] / sz</td></tr>
 <tr>
 <td>__vr _vel_approx_vfdivd_vsvl(double sy, __vr vz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = sy / vz[:]</td></tr>
 <tr>
-<td>__vr _vel_approx_vfdivd_vsvvl(double sy, __vr vz, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = sy / vz[:]</td></tr>
-<tr>
 <td>__vr _vel_approx_pvfdiv_vvvl(__vr vy, __vr vz, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = vy[:] / vz[:]</td></tr>
 <tr>
-<td>__vr _vel_approx_pvfdiv_vvvvl(__vr vy, __vr vz, __vr vd, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = vy[:] / vz[:]</td></tr>
+<td>__vr _vel_approx_vfsqrtd_vvl(__vr vy, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = sqrtf(vy[:])</td></tr>
+<tr>
+<td>__vr _vel_approx_vfsqrts_vvl(__vr vy, int vl)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.2.pdf#page=None"></a></td><td>vx[:] = sqrtf(vy[:])</td></tr>
 </table>
 <h3><a name="sec12">Others</a></h3>
 <table border=1>

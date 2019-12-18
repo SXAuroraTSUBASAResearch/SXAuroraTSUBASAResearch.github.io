@@ -5,10 +5,30 @@
     <link>https://sx-aurora-dev.github.io/blog/post/</link>
     <description>Recent content in Posts on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sx-aurora-dev.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to use SX-Aurora TSUBASA</title>
+      <link>https://sx-aurora-dev.github.io/blog/post/20190918-aurora/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/post/20190918-aurora/</guid>
+      <description>If you are interested in to use SX-Aurora TSUBASA, please use contact form in https://www.nec.com/en/global/solutions/hpc/.</description>
+    </item>
+    
+    <item>
+      <title>Update TensorFlow for SX-Aurora</title>
+      <link>https://sx-aurora-dev.github.io/blog/post/20191218-tf/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/post/20191218-tf/</guid>
+      <description>We have updated tensorflow-ve, Tensorflow with SX-Aurora TSUBASA Vector Engine Support. Now it supports tf 2.0 API! We release the prebuilt package. See README_ve.md for install instructions.
+Tensorflow-ve supports VectorEngine(VE) as a offload device such as GPU. That means our TF is VE-aware, for example you can see kernels run on VE and data transfer between CPU and VE on a standard profiler in tensorboard.
+And our TF includes some kernels that run on VE.</description>
+    </item>
     
     <item>
       <title>Release LLVM-VE 1.5.0</title>

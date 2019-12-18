@@ -361,7 +361,7 @@ if (!doNotTrack) {
 print([k for k in kernels.get_all_registered_kernels().kernel if k.device_type == &#34;VE&#34;])</pre></div>
 <p>Some of the VE kernels such as conv2d, batch_normalization support only NCHW, or channels_first, data format for performance reasons. You may have to change your TF program to support this data format before running on SX-Aurora if your program does not already support it. If you use <code>tf.keras</code>, all you need could be adding one line <code>tf.keras.backend.set_image_data_format('channels_first')</code>. See <a href="https://github.com/sx-aurora-dev/tf-samples">our samples</a> for details such as supporting both data format (NCHW and NHWC).</p>
 
-<h2 id="kenrnel-libraries">Kenrnel Libraries</h2>
+<h2 id="kernel-libraries">Kernel Libraries</h2>
 
 <p>The VE optimized Kernels are developed in separate repositories <a href="https://github.com/sx-aurora-dev/vednn">vednn</a> and <a href="https://github.com/sx-aurora-dev/vetfkernel/tree/master/vml">vml</a>. vednn, Vector Engine DNN Library, includes kernels for deep learning such as conv2d. vml, Vector Engine Machine Learning Kernel Library, aims to support other userful kernels for machine learning such as matrix unary, binary and reduction operations. When you write your own kernel, you can find many examples in these repositories.</p>
 

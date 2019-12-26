@@ -37,6 +37,17 @@
   </url>
   
   <url>
+    <loc>https://sx-aurora-dev.github.io/blog/post/20191007-dqn/</loc>
+    <lastmod>2019-10-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://sx-aurora-dev.github.io/blog/tags/reinforcement-learning/</loc>
+    <lastmod>2019-10-07T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://sx-aurora-dev.github.io/blog/post/20190829-llvm-1.5.0/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
   </url>
@@ -44,17 +55,6 @@
   <url>
     <loc>https://sx-aurora-dev.github.io/blog/tags/llvm/</loc>
     <lastmod>2019-08-29T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://sx-aurora-dev.github.io/blog/post/20190823-dqn/</loc>
-    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://sx-aurora-dev.github.io/blog/tags/reinforcement-learning/</loc>
-    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

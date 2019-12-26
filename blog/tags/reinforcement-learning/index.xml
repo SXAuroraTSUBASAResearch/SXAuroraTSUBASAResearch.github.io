@@ -16,7 +16,7 @@
       <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sx-aurora-dev.github.io/blog/post/20190823-dqn/</guid>
-      <description>Our partner has evaluated their deep reinforcement learning algorithm on SX-Aurora&amp;rsquo;s Vector Engine. The result is very impressive. SX-Aurora outperforms GPU(P100) system about two times.
+      <description>wellvill Co.,Ltd. has evaluated their deep reinforcement learning algorithm on SX-Aurora&amp;rsquo;s Vector Engine. The result is very impressive. SX-Aurora outperforms GPU(P100) system about two times.
 Their algorithm is based on &amp;ldquo;dueling double DQN&amp;rdquo; and solves 3D bin packing problems such as packing multiple products in boxes in a logistics center, loading packages into a truck, etc.
 Since they are using TensorFlow, it can run on VE with TensorFlow for VE without special modification.</description>
     </item>

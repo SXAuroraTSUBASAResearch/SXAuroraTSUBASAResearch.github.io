@@ -5,10 +5,20 @@
     <link>https://sx-aurora-dev.github.io/blog/</link>
     <description>Recent content on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sx-aurora-dev.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Inastemp supports SX-Aurora Vector Engine</title>
+      <link>https://sx-aurora-dev.github.io/blog/post/20200513-inastemp/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/post/20200513-inastemp/</guid>
+      <description>Inastemp, intrinsics as template, is a basic library to use vectorization easily in C++ thanks to template and Intrinsics. Now it supports vector intrinsics for Vector Engine provided by llvm-ve, in addition to intrinsics for X86 SSE/AVX/AVX512, PowerPC ALTIVEC, ARM SVE.
+With inastemp, you can write highily vectorized code by using C++ template without writing intrinsics directory. It means that you don&amp;rsquo;t have to learn platform-specific intrinsics and your code runs on various platforms.</description>
+    </item>
     
     <item>
       <title>How to use SX-Aurora TSUBASA</title>

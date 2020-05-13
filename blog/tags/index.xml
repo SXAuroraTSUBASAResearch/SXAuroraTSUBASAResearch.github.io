@@ -5,10 +5,28 @@
     <link>https://sx-aurora-dev.github.io/blog/tags/</link>
     <description>Recent content in Tags on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 18 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sx-aurora-dev.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>llvm</title>
+      <link>https://sx-aurora-dev.github.io/blog/tags/llvm/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/tags/llvm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vectorization</title>
+      <link>https://sx-aurora-dev.github.io/blog/tags/vectorization/</link>
+      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://sx-aurora-dev.github.io/blog/tags/vectorization/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>tensorflow</title>
@@ -25,15 +43,6 @@
       <pubDate>Mon, 07 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://sx-aurora-dev.github.io/blog/tags/reinforcement-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>llvm</title>
-      <link>https://sx-aurora-dev.github.io/blog/tags/llvm/</link>
-      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://sx-aurora-dev.github.io/blog/tags/llvm/</guid>
       <description></description>
     </item>
     

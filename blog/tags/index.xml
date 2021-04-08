@@ -5,7 +5,7 @@
     <link>https://sx-aurora-dev.github.io/blog/tags/</link>
     <description>Recent content in Tags on SX-Aurora TSUBASA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 13 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Apr 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://sx-aurora-dev.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>llvm</title>
       <link>https://sx-aurora-dev.github.io/blog/tags/llvm/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://sx-aurora-dev.github.io/blog/tags/llvm/</guid>
       <description></description>
@@ -22,7 +22,7 @@
     <item>
       <title>vectorization</title>
       <link>https://sx-aurora-dev.github.io/blog/tags/vectorization/</link>
-      <pubDate>Wed, 13 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://sx-aurora-dev.github.io/blog/tags/vectorization/</guid>
       <description></description>

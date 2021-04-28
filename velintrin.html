@@ -3496,8 +3496,47 @@
 <table border=1>
 <tr><th>Instruction</th><th>Function</th><th>asm</th><th>Description</th></tr>
 <tr>
+<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=475">LCR</a></td>
+<td>unsigned long int _vel_lcr_sss(unsigned long int sy, unsigned long int sz)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">lcr</a></td><td></td></tr>
+<tr>
+<td>unsigned long int _vel_lcr_sss(unsigned long int sy, unsigned long int Z)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">lcr</a></td><td></td></tr>
+<tr>
+<td>unsigned long int _vel_lcr_sss(unsigned long int N, unsigned long int sz)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">lcr</a></td><td></td></tr>
+<tr>
+<td>unsigned long int _vel_lcr_sss(unsigned long int N, unsigned long int Z)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">lcr</a></td><td></td></tr>
+<tr>
+<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=476">SCR</a></td>
+<td>void _vel_scr_sss(unsigned long int sx, unsigned long int sy, unsigned long int sz)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">scr</a></td><td></td></tr>
+<tr>
+<td>void _vel_scr_sss(unsigned long int sx, unsigned long int sy, unsigned long int Z)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">scr</a></td><td></td></tr>
+<tr>
+<td>void _vel_scr_sss(unsigned long int sx, unsigned long int N, unsigned long int sz)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">scr</a></td><td></td></tr>
+<tr>
+<td>void _vel_scr_sss(unsigned long int sx, unsigned long int N, unsigned long int Z)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">scr</a></td><td></td></tr>
+<tr>
+<td rowspan=4><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=477">TSCR</a></td>
+<td>unsigned long int _vel_tscr_ssss(unsigned long int sx, unsigned long int sy, unsigned long int sz)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">tscr</a></td><td></td></tr>
+<tr>
+<td>unsigned long int _vel_tscr_ssss(unsigned long int sx, unsigned long int sy, unsigned long int Z)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">tscr</a></td><td></td></tr>
+<tr>
+<td>unsigned long int _vel_tscr_ssss(unsigned long int sx, unsigned long int N, unsigned long int sz)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">tscr</a></td><td></td></tr>
+<tr>
+<td>unsigned long int _vel_tscr_ssss(unsigned long int sx, unsigned long int N, unsigned long int Z)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">tscr</a></td><td></td></tr>
+<tr>
+<td rowspan=2><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=479">FIDCR</a></td>
+<td>unsigned long int _vel_fidcr_sss(unsigned long int sy, unsigned int I)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">fidcr</a></td><td></td></tr>
+<tr>
+<td>unsigned long int _vel_fidcr_sss(unsigned long int N, unsigned int I)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">fidcr</a></td><td></td></tr>
+<tr>
+<td rowspan=3><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=164">FENCE</a></td>
+<td>void _vel_fencei()</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">fencei</a></td><td></td></tr>
+<tr>
+<td>void _vel_fencem_s(unsigned int I)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">fencem</a></td><td></td></tr>
+<tr>
+<td>void _vel_fencec_s(unsigned int I)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">fencec</a></td><td></td></tr>
+<tr>
 <td rowspan=1><a href="https://www.hpc.nec/documents/guide/pdfs/Aurora_ISA_guide.pdf#page=167">SVOB</a></td>
-<td>void _vel_svob(void)</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">svob</a></td><td></td></tr>
+<td>void _vel_svob()</td><td><a href="https://www.hpc.nec/documents/sdk/pdfs/VectorEngine-as-manual-v1.3.pdf#page=35">svob</a></td><td></td></tr>
 </table>
 <h3><a name="sec11">Approximate Operations</a></h3>
 <table border=1>
